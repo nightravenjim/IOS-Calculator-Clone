@@ -18,7 +18,7 @@ function saveToStorage() {
 };
 
 function performEquals() {
-  calculation= eval(calculation);
+  calculation = eval(calculation);
   saveToStorage();
   displayResult();
 };
@@ -95,4 +95,5 @@ document.body.addEventListener('keydown', (event) => {
     } else if (event.key === 'Backspace') {
       clearLast();
     }
+
 });
