@@ -24,7 +24,7 @@ function performEquals() {
 };
 
 function clearResult() {
-  calculation= '';
+  calculation = '';
   saveToStorage();
   displayResult();
 };
@@ -97,3 +97,4 @@ document.body.addEventListener('keydown', (event) => {
     }
 
 });
+
